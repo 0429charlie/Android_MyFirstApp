@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="q1">Please Enter Your Name</string>
+    <string name="input1">Name</string>
+    <string name="b1">Submit</string>
+    <string name="WelcomeMsg">Welcome %1$s</string>
+</resources>

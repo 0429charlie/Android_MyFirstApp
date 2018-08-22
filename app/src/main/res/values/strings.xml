@@ -4,4 +4,9 @@
     <string name="input1">Name</string>
     <string name="b1">Submit</string>
     <string name="WelcomeMsg">Welcome %1$s</string>
+    <string-array name="desserts">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+    </string-array>
 </resources>

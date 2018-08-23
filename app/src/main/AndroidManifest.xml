@@ -19,10 +19,16 @@
         <activity
             android:name=".DisplayMessageActivity"
             android:parentActivityName=".MainActivity">
-            <!--<meta-date
+
+            <!--
+                <meta-date
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />-->
+                android:value=".MainActivity" />
+            -->
         </activity>
+        <activity
+            android:name=".SecondaryMainActivity"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

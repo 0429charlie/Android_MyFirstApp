@@ -31,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
         vp.setAdapter(new MyPagesAdapter());
     }
 
+    public void switchMode(View view) {
+        Intent intent = new Intent(this, SecondaryMainActivity.class);
+        startActivity(intent);
+    }
+
     // Activity for button
     public void sendMessage(View view) {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
